@@ -69,20 +69,20 @@
 
 /* =============flex wrap============================================================================= */
 
-.flex-container{
+/* .flex-container{
     display: flex;
     height: 100px;
     border: 2px solid black;
     max-width: 300px;
-}
+} */
 
-.item{
+/* .item{
     font-size: 24px;
     height: 50%;
     text-align: center;
     min-width: 100px;
     line-height: 50px;
-}
+} */
 
 
 .nowrap{
@@ -107,4 +107,50 @@
 
 .orange{
     background-color: orange;
+}
+
+
+/* ============= FLEX- FLOW =================================================================================================*/
+
+.flex-container{
+    display: flex;
+   
+    border: 1px solid  black;
+    max-width: 500px;
+
+    margin-bottom: 10px;
+}
+
+.default{
+    flex-flow:  row nowrap;
+}
+
+.wrap-reverse{
+    flex-flow: row wrap-reverse;
+}
+
+.wrap{
+    flex-flow: row wrap;
+}
+
+.r-nowrap{
+    flex-flow: row-reverse nowrap;
+}
+
+
+.r-wrap{
+    flex: row-reverse wrap;
+}
+
+.rr-wrap{
+    flex-flow: row-reverse wrap-reverse;
+}
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
 }
