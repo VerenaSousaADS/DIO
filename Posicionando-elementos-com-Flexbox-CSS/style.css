@@ -145,7 +145,7 @@
 .rr-wrap{
     flex-flow: row-reverse wrap-reverse;
 }
-.item{
+/* .item{
     background-color: blueviolet;
     margin: 5px;
     color: white;
@@ -153,4 +153,48 @@
     width: 100px;
     height: 50px;
     line-height: 50px;
+} */
+
+
+/* ========justify-content==================================================================== */
+
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+
+    margin: 0;
+    display: flex;
+
+    margin-bottom: 10px;
+}
+
+
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+
+    width: 100px;
+    height: 50px;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.center{
+    justify-content: center;
 }
