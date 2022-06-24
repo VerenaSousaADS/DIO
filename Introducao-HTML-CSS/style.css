@@ -75,3 +75,7 @@ a{
     text-align: center;
     justify-content: center;
 }
+
+.contact_list img{
+    vertical-align: middle;
+}
