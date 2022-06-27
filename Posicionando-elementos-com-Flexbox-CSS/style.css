@@ -202,7 +202,7 @@
 
 /* =================== align - items ================================================================================================================================================== */
 
-.container{
+/* .container{
     max-width: 350px;
     border: 1px solid black;
     display: flex;
@@ -214,9 +214,9 @@
     margin: 5px;
     color: white;
     text-align: center;
-}
+} */
 
-.center{
+/* .center{
     align-items: center;
 }
 
@@ -249,4 +249,33 @@
 .central .item{
     flex: 0;
     padding: 20px;
+} */
+
+
+/* =============aling - content ====================================================================================================================================================== */
+
+.container{
+    height: 400px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.item{
+    background-color: orangered;
+    padding: 0 5px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.stretch{
+    align-content: stretch;
+}
+
+.center{
+    align-content: center;
 }
