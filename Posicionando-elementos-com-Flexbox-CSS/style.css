@@ -279,3 +279,11 @@
 .center{
     align-content: center;
 }
+
+.between{
+    align-content: space-between;
+}
+
+.around{
+    align-content: space-around;
+}
