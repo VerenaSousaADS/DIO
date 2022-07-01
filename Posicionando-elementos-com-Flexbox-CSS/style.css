@@ -393,13 +393,38 @@
 
 /* ========== fundamentos flex ================================================================================================================================= */
 
-.flex-container{
+/* .flex-container{
     display: flex;
     border: 1px solid black;
-    max-width: 400px;
+    max-width: 350px;
+    margin-bottom: 20px;
 }
 
 .item{
+    flex: 1;
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+} */
+
+/* .flex-1{ */
+    /* significa que o grow = 1; shrink = 1; basis = 0*/
+    /* flex: 1;
+} */
+
+/* ======= fundamentos order============================================================================ */
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.item{
+    flex: 1;
     background-color: brown;
     color: white;
     font-size: 24px;
@@ -407,7 +432,16 @@
     margin: 5px;
 }
 
-.flex-1{
-    /* significa que o grow = 1; shrink = 1; basis = 0*/
-    flex: 1;
+.o1{
+    order:1;
 }
+.o2{
+    order:2;
+}
+.o3{
+    order:3;
+}
+.o4{
+    order:4;
+}
+
