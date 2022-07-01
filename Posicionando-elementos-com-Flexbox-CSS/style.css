@@ -416,7 +416,7 @@
 
 /* ======= fundamentos order============================================================================ */
 
-.flex-container{
+/* .flex-container{
     display: flex;
     border: 1px solid black;
     max-width: 350px;
@@ -430,7 +430,7 @@
     font-size: 24px;
     text-align: center;
     margin: 5px;
-}
+} */
 
 .o1{
     order:1;
@@ -445,3 +445,54 @@
     order:4;
 }
 
+
+/* =========align-self============================================================================== */
+
+.flex-container{
+    max-width: 350px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.align-container{
+    align-items: center;
+}
+
+
+.item{
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: end;
+}
+
+.basiline{
+    align-self: baseline;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.auto{
+    align-self: auto;
+}
+
+.direction{
+    flex-direction: column;
+}
